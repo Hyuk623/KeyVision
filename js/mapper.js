@@ -80,16 +80,33 @@ const KeyMapper = {
             'AltRight': 'AltRight'
         };
 
-        // Apply OS specific overrides
+        // Apply OS specific overrides and SAFE ALIASES for incompatible keys
         if (osType === 'windows') {
             baseMap['MetaLeft'] = 'MetaLeft'; // Windows Key
-            baseMap['MetaRight'] = 'MetaRight'; // Windows Key
-            baseMap['ContextMenu'] = 'ContextMenu'; // Menu Key
+            baseMap['MetaRight'] = 'MetaRight'; 
+            baseMap['ContextMenu'] = 'ContextMenu'; 
+            
+            // SAFE ALIAS: Pressing Right Ctrl lights up the Windows Key safely (bypassing OS Start menu)
+            baseMap['ControlRight'] = 'MetaLeft'; 
+            
         } else if (osType === 'mac') {
             baseMap['MetaLeft'] = 'MetaLeft'; // Command Left
             baseMap['MetaRight'] = 'MetaRight'; // Command Right
+            
+            // SAFE ALIAS: Pressing Right Ctrl lights up the Command (⌘) Key safely
+            baseMap['ControlRight'] = 'MetaLeft'; 
+            // ALIAS: For Windows users teaching Mac, map ContextMenu to Option just in case
+            baseMap['ContextMenu'] = 'AltLeft';
+            
         } else if (osType === 'chrome') {
             baseMap['MetaLeft'] = 'Search'; // Search key instead of Win/Cmd
+            
+            // SAFE ALIAS 1: Chromebooks have Search key where CapsLock physically is.
+            // Pressing physical CapsLock will light up the Chromebook Search key!
+            baseMap['CapsLock'] = 'Search';
+            
+            // SAFE ALIAS 2: Right Ctrl also lights up Search key safely
+            baseMap['ControlRight'] = 'Search';
             
             // Map media keys to F-keys so they visually trigger the correct icon row
             baseMap['BrowserBack'] = 'F1';
