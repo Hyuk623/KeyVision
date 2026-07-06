@@ -167,7 +167,7 @@
     </g>
     <g id="CapsLock" class="key-group" transform="translate(0, 174)">
       <rect width="96.4" height="50" rx="8" class="key-rect" />
-      <text x="48.2" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Caps</text>
+      <text x="48.2" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Caps Lock</text>
     </g>
     <g id="KeyA" class="key-group" transform="translate(104.4, 174)">
       <rect width="50" height="50" rx="8" class="key-rect" />

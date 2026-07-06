@@ -107,7 +107,7 @@
     </g>
     <g id="Backspace" class="key-group" transform="translate(754, 58)">
       <rect width="108" height="50" rx="8" class="key-rect" />
-      <text x="54.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Backspace</text>
+      <text x="54.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">delete</text>
     </g>
     <g id="Tab" class="key-group" transform="translate(0, 116)">
       <rect width="79.0" height="50" rx="8" class="key-rect" />
@@ -167,7 +167,7 @@
     </g>
     <g id="CapsLock" class="key-group" transform="translate(0, 174)">
       <rect width="96.4" height="50" rx="8" class="key-rect" />
-      <text x="48.2" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Caps</text>
+      <text x="48.2" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">caps lock</text>
     </g>
     <g id="KeyA" class="key-group" transform="translate(104.4, 174)">
       <rect width="50" height="50" rx="8" class="key-rect" />
@@ -215,7 +215,7 @@
     </g>
     <g id="Enter" class="key-group" transform="translate(742.4, 174)">
       <rect width="119.60000000000002" height="50" rx="8" class="key-rect" />
-      <text x="59.80000000000001" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Enter</text>
+      <text x="59.80000000000001" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">return</text>
     </g>
     <g id="ShiftLeft" class="key-group" transform="translate(0, 232)">
       <rect width="125.39999999999998" height="50" rx="8" class="key-rect" />

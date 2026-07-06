@@ -50,11 +50,22 @@ class KeyVisionApp {
         if (!helperEl) return;
 
         if (osType === 'windows') {
-            helperEl.innerHTML = "<strong>Windows 팁:</strong> 시작 메뉴 열림 방지를 위해, 강사님 키보드의 <strong>[우측 Ctrl]</strong>을 누르면 화면의 <strong>[Windows 로고]</strong> 키에 불이 들어옵니다.";
+            helperEl.innerHTML = `
+                <strong>Windows 팁</strong><br>
+                시작 메뉴가 열리는 것을 방지하려면, 실제 키보드의 <strong>[우측 Ctrl]</strong>을 누르세요.<br>화면 상의 <strong>[Windows 로고]</strong> 키에 안전하게 불이 들어옵니다.
+            `;
         } else if (osType === 'mac') {
-            helperEl.innerHTML = "<strong>Mac 팁:</strong> Windows 키보드 사용 시, <strong>[우측 Ctrl]</strong>을 누르면 <strong>[Cmd ⌘]</strong> 키를, <strong>[Alt]</strong>를 누르면 <strong>[Option ⌥]</strong> 키를 안전하게 켤 수 있습니다.";
+            helperEl.innerHTML = `
+                <strong>Mac 팁</strong><br>
+                • <strong>[Cmd ⌘]</strong> 켜기: 물리적 <strong>[우측 Ctrl]</strong> 키 누름<br>
+                • <strong>[Option ⌥]</strong> 켜기: 물리적 <strong>[Alt]</strong> 또는 <strong>[Menu(우클릭)]</strong> 키 누름
+            `;
         } else if (osType === 'chrome') {
-            helperEl.innerHTML = "<strong>Chromebook 팁:</strong> 실제 키보드의 <strong>[CapsLock]</strong>이나 <strong>[우측 Ctrl]</strong>을 누르면 <strong>[Search 🔍]</strong> 키가 켜집니다. 상단 특수키는 <strong>F1~F10</strong>과 매칭됩니다.";
+            helperEl.innerHTML = `
+                <strong>Chromebook 팁</strong><br>
+                • <strong>[Search 🔍]</strong> 켜기: 물리적 <strong>[CapsLock]</strong> 또는 <strong>[우측 Ctrl]</strong> 키 누름<br>
+                • 상단 특수 아이콘(⬅️, 🔅, 🔇 등)은 <strong>F1~F10</strong> 키와 매칭되어 있습니다.
+            `;
         }
     }
 
