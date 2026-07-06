@@ -1,0 +1,259 @@
+<svg viewBox="0 0 902 322" xmlns="http://www.w3.org/2000/svg" class="keyboard">
+  <rect width="902" height="322" rx="16" class="keyboard-bg" />
+  <g transform="translate(20, 20)">
+    <g id="Backquote" class="key-group" transform="translate(0, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">`</text>
+    </g>
+    <g id="Digit1" class="key-group" transform="translate(58, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">1</text>
+    </g>
+    <g id="Digit2" class="key-group" transform="translate(116, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">2</text>
+    </g>
+    <g id="Digit3" class="key-group" transform="translate(174, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">3</text>
+    </g>
+    <g id="Digit4" class="key-group" transform="translate(232, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">4</text>
+    </g>
+    <g id="Digit5" class="key-group" transform="translate(290, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">5</text>
+    </g>
+    <g id="Digit6" class="key-group" transform="translate(348, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">6</text>
+    </g>
+    <g id="Digit7" class="key-group" transform="translate(406, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">7</text>
+    </g>
+    <g id="Digit8" class="key-group" transform="translate(464, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">8</text>
+    </g>
+    <g id="Digit9" class="key-group" transform="translate(522, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">9</text>
+    </g>
+    <g id="Digit0" class="key-group" transform="translate(580, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">0</text>
+    </g>
+    <g id="Minus" class="key-group" transform="translate(638, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">-</text>
+    </g>
+    <g id="Equal" class="key-group" transform="translate(696, 0)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">=</text>
+    </g>
+    <g id="Backspace" class="key-group" transform="translate(754, 0)">
+      <rect width="108" height="50" rx="8" class="key-rect" />
+      <text x="54.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Backspace</text>
+    </g>
+    <g id="Tab" class="key-group" transform="translate(0, 58)">
+      <rect width="79.0" height="50" rx="8" class="key-rect" />
+      <text x="39.5" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Tab</text>
+    </g>
+    <g id="KeyQ" class="key-group" transform="translate(87.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Q</text>
+    </g>
+    <g id="KeyW" class="key-group" transform="translate(145.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">W</text>
+    </g>
+    <g id="KeyE" class="key-group" transform="translate(203.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">E</text>
+    </g>
+    <g id="KeyR" class="key-group" transform="translate(261.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">R</text>
+    </g>
+    <g id="KeyT" class="key-group" transform="translate(319.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">T</text>
+    </g>
+    <g id="KeyY" class="key-group" transform="translate(377.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Y</text>
+    </g>
+    <g id="KeyU" class="key-group" transform="translate(435.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">U</text>
+    </g>
+    <g id="KeyI" class="key-group" transform="translate(493.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">I</text>
+    </g>
+    <g id="KeyO" class="key-group" transform="translate(551.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">O</text>
+    </g>
+    <g id="KeyP" class="key-group" transform="translate(609.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">P</text>
+    </g>
+    <g id="BracketLeft" class="key-group" transform="translate(667.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">[</text>
+    </g>
+    <g id="BracketRight" class="key-group" transform="translate(725.0, 58)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">]</text>
+    </g>
+    <g id="Backslash" class="key-group" transform="translate(783.0, 58)">
+      <rect width="79.0" height="50" rx="8" class="key-rect" />
+      <text x="39.5" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">\</text>
+    </g>
+    <g id="CapsLock" class="key-group" transform="translate(0, 116)">
+      <rect width="96.4" height="50" rx="8" class="key-rect" />
+      <text x="48.2" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Caps</text>
+    </g>
+    <g id="KeyA" class="key-group" transform="translate(104.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">A</text>
+    </g>
+    <g id="KeyS" class="key-group" transform="translate(162.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">S</text>
+    </g>
+    <g id="KeyD" class="key-group" transform="translate(220.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">D</text>
+    </g>
+    <g id="KeyF" class="key-group" transform="translate(278.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">F</text>
+    </g>
+    <g id="KeyG" class="key-group" transform="translate(336.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">G</text>
+    </g>
+    <g id="KeyH" class="key-group" transform="translate(394.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">H</text>
+    </g>
+    <g id="KeyJ" class="key-group" transform="translate(452.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">J</text>
+    </g>
+    <g id="KeyK" class="key-group" transform="translate(510.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">K</text>
+    </g>
+    <g id="KeyL" class="key-group" transform="translate(568.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">L</text>
+    </g>
+    <g id="Semicolon" class="key-group" transform="translate(626.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">;</text>
+    </g>
+    <g id="Quote" class="key-group" transform="translate(684.4, 116)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">'</text>
+    </g>
+    <g id="Enter" class="key-group" transform="translate(742.4, 116)">
+      <rect width="119.60000000000002" height="50" rx="8" class="key-rect" />
+      <text x="59.80000000000001" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Enter</text>
+    </g>
+    <g id="ShiftLeft" class="key-group" transform="translate(0, 174)">
+      <rect width="125.39999999999998" height="50" rx="8" class="key-rect" />
+      <text x="62.69999999999999" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Shift</text>
+    </g>
+    <g id="KeyZ" class="key-group" transform="translate(133.39999999999998, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Z</text>
+    </g>
+    <g id="KeyX" class="key-group" transform="translate(191.39999999999998, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">X</text>
+    </g>
+    <g id="KeyC" class="key-group" transform="translate(249.39999999999998, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">C</text>
+    </g>
+    <g id="KeyV" class="key-group" transform="translate(307.4, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">V</text>
+    </g>
+    <g id="KeyB" class="key-group" transform="translate(365.4, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">B</text>
+    </g>
+    <g id="KeyN" class="key-group" transform="translate(423.4, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">N</text>
+    </g>
+    <g id="KeyM" class="key-group" transform="translate(481.4, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">M</text>
+    </g>
+    <g id="Comma" class="key-group" transform="translate(539.4, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">,</text>
+    </g>
+    <g id="Period" class="key-group" transform="translate(597.4, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">.</text>
+    </g>
+    <g id="Slash" class="key-group" transform="translate(655.4, 174)">
+      <rect width="50" height="50" rx="8" class="key-rect" />
+      <text x="25.0" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">/</text>
+    </g>
+    <g id="ShiftRight" class="key-group" transform="translate(713.4, 174)">
+      <rect width="148.6" height="50" rx="8" class="key-rect" />
+      <text x="74.3" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Shift</text>
+    </g>
+    <g id="ControlLeft" class="key-group" transform="translate(0, 232)">
+      <rect width="67.4" height="50" rx="8" class="key-rect" />
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Ctrl</text>
+    </g>
+    <g id="MetaLeft" class="key-group" transform="translate(75.4, 232)">
+      <rect width="67.4" height="50" rx="8" class="key-rect" />
+      <g transform="translate(24.700000000000003, 16.0)" class="key-icon">
+        <rect x="0" y="0" width="8" height="8" />
+        <rect x="10" y="0" width="8" height="8" />
+        <rect x="0" y="10" width="8" height="8" />
+        <rect x="10" y="10" width="8" height="8" />
+      </g>
+    </g>
+    <g id="AltLeft" class="key-group" transform="translate(150.8, 232)">
+      <rect width="67.4" height="50" rx="8" class="key-rect" />
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Alt</text>
+    </g>
+    <g id="Space" class="key-group" transform="translate(226.20000000000002, 232)">
+      <rect width="351.6" height="50" rx="8" class="key-rect" />
+      <text x="175.8" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Space</text>
+    </g>
+    <g id="AltRight" class="key-group" transform="translate(585.8000000000001, 232)">
+      <rect width="67.4" height="50" rx="8" class="key-rect" />
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Alt</text>
+    </g>
+    <g id="MetaRight" class="key-group" transform="translate(661.2, 232)">
+      <rect width="67.4" height="50" rx="8" class="key-rect" />
+      <g transform="translate(24.700000000000003, 16.0)" class="key-icon">
+        <rect x="0" y="0" width="8" height="8" />
+        <rect x="10" y="0" width="8" height="8" />
+        <rect x="0" y="10" width="8" height="8" />
+        <rect x="10" y="10" width="8" height="8" />
+      </g>
+    </g>
+    <g id="ContextMenu" class="key-group" transform="translate(736.6, 232)">
+      <rect width="67.4" height="50" rx="8" class="key-rect" />
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Menu</text>
+    </g>
+    <g id="ControlRight" class="key-group" transform="translate(812.0, 232)">
+      <rect width="67.4" height="50" rx="8" class="key-rect" />
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">Ctrl</text>
+    </g>
+  </g>
+</svg>

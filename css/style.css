@@ -1,0 +1,146 @@
+:root {
+    --bg-color: #0f172a;
+    --text-color: #f8fafc;
+    --glass-bg: rgba(255, 255, 255, 0.05);
+    --glass-border: rgba(255, 255, 255, 0.1);
+    --key-bg: #1e293b;
+    --key-text: #94a3b8;
+    --key-active-bg: #fbbf24; /* Premium gold/yellow */
+    --key-active-text: #0f172a;
+    --key-active-shadow: 0 0 20px rgba(251, 191, 36, 0.6);
+    --font-main: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-main);
+    background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+    color: var(--text-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.app-container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.glass-header {
+    background: var(--glass-bg);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid var(--glass-border);
+    border-radius: 24px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+}
+
+.logo h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo .subtitle {
+    font-size: 12px;
+    color: #64748b;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+.layout-switcher {
+    display: flex;
+    gap: 12px;
+}
+
+.layout-switcher button {
+    background: transparent;
+    border: 1px solid transparent;
+    color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-weight: 500;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.layout-switcher button:hover {
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.layout-switcher button.active {
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid var(--glass-border);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #fbbf24;
+}
+
+/* SVG Keyboard Container */
+.keyboard-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 1000px;
+}
+
+.keyboard {
+    width: 100%;
+    max-width: 950px;
+    height: auto;
+    filter: drop-shadow(0 25px 50px rgba(0,0,0,0.5));
+}
+
+.keyboard-bg {
+    fill: #0f172a;
+    stroke: rgba(255, 255, 255, 0.1);
+    stroke-width: 2;
+}
+
+.key-rect {
+    fill: var(--key-bg);
+    stroke: rgba(255, 255, 255, 0.05);
+    stroke-width: 1.5;
+    transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.key-text, .key-icon {
+    fill: var(--key-text);
+    font-family: var(--font-main);
+    font-size: 14px;
+    font-weight: 500;
+    pointer-events: none;
+    transition: all 0.1s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Active State (Key Press) */
+.key-group.active .key-rect {
+    fill: var(--key-active-bg);
+    filter: drop-shadow(var(--key-active-shadow));
+    transform: translateY(3px);
+}
+
+.key-group.active .key-text, .key-group.active .key-icon {
+    fill: var(--key-active-text);
+    font-weight: 700;
+    transform: translateY(3px);
+}
