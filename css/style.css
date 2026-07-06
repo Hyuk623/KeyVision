@@ -94,6 +94,37 @@ body {
     color: #fbbf24;
 }
 
+/* Helper Text */
+.helper-text-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--glass-border);
+    padding: 12px 24px;
+    border-radius: 16px;
+    color: #94a3b8;
+    font-size: 14px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+    max-width: 80%;
+    text-align: center;
+}
+
+.helper-text-container .info-icon {
+    font-size: 18px;
+}
+
+.helper-text-container p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.helper-text-container strong {
+    color: #fbbf24;
+    font-weight: 600;
+}
+
 /* SVG Keyboard Container */
 .keyboard-container {
     width: 100%;

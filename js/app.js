@@ -39,8 +39,22 @@ class KeyVisionApp {
         if (Layouts && Layouts[osType]) {
             this.container.innerHTML = Layouts[osType];
             this.activeKeys.clear(); // Reset active keys on layout switch
+            this.updateHelperText(osType);
         } else {
             console.error(`Layout for ${osType} not found.`);
+        }
+    }
+
+    updateHelperText(osType) {
+        const helperEl = document.getElementById('helper-text');
+        if (!helperEl) return;
+
+        if (osType === 'windows') {
+            helperEl.innerHTML = "<strong>Windows 팁:</strong> 시작 메뉴 열림 방지를 위해, 강사님 키보드의 <strong>[우측 Ctrl]</strong>을 누르면 화면의 <strong>[Windows 로고]</strong> 키에 불이 들어옵니다.";
+        } else if (osType === 'mac') {
+            helperEl.innerHTML = "<strong>Mac 팁:</strong> Windows 키보드 사용 시, <strong>[우측 Ctrl]</strong>을 누르면 <strong>[Cmd ⌘]</strong> 키를, <strong>[Alt]</strong>를 누르면 <strong>[Option ⌥]</strong> 키를 안전하게 켤 수 있습니다.";
+        } else if (osType === 'chrome') {
+            helperEl.innerHTML = "<strong>Chromebook 팁:</strong> 실제 키보드의 <strong>[CapsLock]</strong>이나 <strong>[우측 Ctrl]</strong>을 누르면 <strong>[Search 🔍]</strong> 키가 켜집니다. 상단 특수키는 <strong>F1~F10</strong>과 매칭됩니다.";
         }
     }
 
