@@ -215,15 +215,15 @@
     </g>
     <g id="ControlLeft" class="key-group" transform="translate(0, 232)">
       <rect width="67.4" height="50" rx="8" class="key-rect" />
-      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">control</text>
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text" font-size="22px">⌃</text>
     </g>
     <g id="AltLeft" class="key-group" transform="translate(75.4, 232)">
       <rect width="67.4" height="50" rx="8" class="key-rect" />
-      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">option</text>
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text" font-size="22px">⌥</text>
     </g>
     <g id="MetaLeft" class="key-group" transform="translate(150.8, 232)">
       <rect width="67.4" height="50" rx="8" class="key-rect" />
-      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">command</text>
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text" font-size="22px">⌘</text>
     </g>
     <g id="Space" class="key-group" transform="translate(226.20000000000002, 232)">
       <rect width="351.6" height="50" rx="8" class="key-rect" />
@@ -231,15 +231,15 @@
     </g>
     <g id="MetaRight" class="key-group" transform="translate(585.8000000000001, 232)">
       <rect width="67.4" height="50" rx="8" class="key-rect" />
-      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">command</text>
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text" font-size="22px">⌘</text>
     </g>
     <g id="AltRight" class="key-group" transform="translate(661.2, 232)">
       <rect width="67.4" height="50" rx="8" class="key-rect" />
-      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">option</text>
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text" font-size="22px">⌥</text>
     </g>
     <g id="ControlRight" class="key-group" transform="translate(736.6, 232)">
       <rect width="67.4" height="50" rx="8" class="key-rect" />
-      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text">control</text>
+      <text x="33.7" y="25.0" dominant-baseline="middle" text-anchor="middle" class="key-text" font-size="22px">⌃</text>
     </g>
   </g>
 </svg>
