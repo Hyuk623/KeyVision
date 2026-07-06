@@ -5,6 +5,12 @@ const KeyMapper = {
     getCodeToIdMap: function(osType) {
         // Shared base map for all OS
         const baseMap = {
+            // Top Row
+            'Escape': 'Escape',
+            'F1': 'F1', 'F2': 'F2', 'F3': 'F3', 'F4': 'F4',
+            'F5': 'F5', 'F6': 'F6', 'F7': 'F7', 'F8': 'F8',
+            'F9': 'F9', 'F10': 'F10', 'F11': 'F11', 'F12': 'F12',
+
             // Row 1
             'Backquote': 'Backquote',
             'Digit1': 'Digit1',
@@ -83,7 +89,17 @@ const KeyMapper = {
             baseMap['MetaLeft'] = 'MetaLeft'; // Command Left
             baseMap['MetaRight'] = 'MetaRight'; // Command Right
         } else if (osType === 'chrome') {
-            baseMap['MetaLeft'] = 'Search'; // Search key instead of Win/Cmd (if added to layout later)
+            baseMap['MetaLeft'] = 'Search'; // Search key instead of Win/Cmd
+            
+            // Map media keys to F-keys so they visually trigger the correct icon row
+            baseMap['BrowserBack'] = 'F1';
+            baseMap['BrowserForward'] = 'F2';
+            baseMap['BrowserRefresh'] = 'F3';
+            baseMap['MediaTrackPrevious'] = 'F1';
+            baseMap['MediaTrackNext'] = 'F2';
+            baseMap['AudioVolumeMute'] = 'F8';
+            baseMap['AudioVolumeDown'] = 'F9';
+            baseMap['AudioVolumeUp'] = 'F10';
         }
 
         return baseMap;
